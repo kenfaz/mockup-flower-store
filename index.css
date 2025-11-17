@@ -41,7 +41,6 @@ section {
   flex-direction: column;
   flex: 1;
   /* background: linear-gradient(to left, #06231d, #0c342c, #045141); */
-
 }
 
 .hero-left-container h1 {
@@ -56,6 +55,7 @@ section {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   color: #ffffff;
   line-height: 2;
+  opacity: 0.7;
 }
 
 .hero-left-container button {
@@ -84,7 +84,7 @@ section {
 
 /* flowers-section */
 .flowers-section {
-  height: 100vh;
+  height: 200vh;
   background: linear-gradient(to left, #06231d, #0c342c, #076653);
 }
 
@@ -94,6 +94,61 @@ section {
   color: #ffffff;
   font-weight: normal;
 }
+
+.flowers-header-container {
+  width: 100vw;
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.flowers-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flowers-container {
+  padding-top: 50px;
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flower-card {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.flower-card img {
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #ffffff;
+}
+
+.flower-card h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+.flower-card p {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  line-height: 2;
+  color: #ffffff;
+  opacity: 0.7;
+  margin: 0;
+}
+
 
 /* customer-review-section */
 .customer-review-section {
@@ -106,6 +161,80 @@ section {
   font-size: 5rem;
   color: #ffffff;
   font-weight: normal;
+}
+
+.customer-review-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.customer-review-lower-container {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex: 8;
+  justify-content: space-evenly;
+  /* background-color: #ffffff; */
+
+}
+
+.customer-header-container {
+  width: 100vw;
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.customer-review-card {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 30%;
+  /* background-color: #ffffff; */
+  border-radius: 25px;
+  text-align: center
+}
+
+.customer-review-card h1 {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.customer-review-card p {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  line-height: 1.5;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.customer-review-card img {
+  border: 5px solid #ffffff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.star-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 /* about-section */
@@ -177,6 +306,7 @@ section {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     color: #ffffff;
     line-height: 2;
+    opacity: 0.7;
 }
 
 .about-right-container {
@@ -186,10 +316,6 @@ section {
     background-position: center;
     background-size: cover;
 }
-
-
-
-
 
 /* contact-us-section */
 .contact-us-section {
@@ -314,14 +440,6 @@ section {
   justify-content: center;
   align-items: center;
   padding-top: 250px;
-}
-
-.header-container {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 40px;
 }
 
 /* Navigation */
